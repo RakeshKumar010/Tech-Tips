@@ -4,7 +4,7 @@ const Header = (props) => {
     return (
         <div className='header'>  
 
-            <h1>Tech News</h1>
+            <h1>Tech Tips</h1>
             <div className="search">
             <input type="text" onChange={props.cFun} />
             <a href="#">Search</a></div>
