@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import Header from './Components/Header';
-import News from './Components/News'
+import News from './Components/News';
+import Info from './Components/Info';
 
 const App = () => {
   const [val, setVal] = useState();
@@ -27,6 +28,7 @@ const App = () => {
     <>
       <div className="appMain">
         <Header cFun={changeFun} />
+        <Info/>
         <div className="mainDiv">
           <div className="news">
             {val && val.map((value) => {
