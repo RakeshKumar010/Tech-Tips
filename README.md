@@ -37,5 +37,5 @@ See the section about deployment for more information.
 
 ## Project Link
 ```bash
-https://app.netlify.com/sites/webtechnews/overview
+https://webtechnews.netlify.app/
 ```
