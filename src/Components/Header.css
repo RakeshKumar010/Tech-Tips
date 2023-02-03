@@ -11,17 +11,24 @@ box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.439);
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 1rem;
     position:fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 2;
 
 }  
 .header input{
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgb(37, 32, 32);
+    padding: 0;
+    height: 22px;
 } 
+.header a{
+    text-decoration: none;
+    margin-left: 20px;
+}
 .header h1::first-letter{
     color: yellow;
     font-size: larger;
