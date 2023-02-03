@@ -24,10 +24,10 @@ box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.439);
     background-color: rgb(37, 32, 32);
     padding: 0;
     height: 22px;
+    margin: 10px;
 } 
 .header a{
     text-decoration: none;
-    margin: 20px;
 }
 .header h1::first-letter{
     color: yellow;
